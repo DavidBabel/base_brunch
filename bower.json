@@ -1,0 +1,44 @@
+{
+  "name": "tiger",
+  "homepage": "https://github.com/blackang-us/tiger",
+  "authors": [
+    "David <david@blackang.us>"
+  ],
+  "description": "html5 banner with dynamic retargeting",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1",
+    "jszip": "Stuk/jszip#^3.0.0",
+    "filesaver": "eligrey/FileSaver.js#^1.3.2",
+    "spectrum": "^1.8.0",
+    "font-awesome": "fontawesome#^4.6.2",
+    "jquery-easyui": "http://www.jeasyui.com/download/downloads/jquery-easyui-1.5.zip",
+    "jquery-linear-gradiant": "micmro/Cross-Browser-Linear-Gradient-jQuery-CSS-Hook",
+    "bootstrap": "^4.0.0-alpha.3",
+    "KNACSS": "knacss#^5.0.1"
+  },
+  "overrides": {
+    "jquery-easyui": {
+      "main": [
+        "jquery.easyui.patched.min.js",
+        "themes/color.css",
+        "themes/icon.css",
+        "themes/metro/easyui.css"
+      ]
+    },
+    "jquery-linear-gradiant": {
+      "main": [
+        "js/gradient-LinearOnly.js"
+      ]
+    }
+  }
+}

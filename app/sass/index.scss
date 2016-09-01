@@ -1,0 +1,61 @@
+
+
+// // toujours avant theme.less
+// // contient toutes les variables de couleur @var : #color;
+// @import '_config';
+// // association des couleurs aux variables du theme
+// @import '_theme';
+
+
+// // dois être avant vendor/adminlte
+// @import "vendor/bootstrap/_variables";
+// @import "vendor/bootstrap/_bootstrap";
+
+// @import "vendor/adminlte/_variables";
+// @import "vendor/adminlte/_adminlte.less";
+
+// @import "vendor/font-awesome/_variables";
+// @import 'vendor/font-awesome/_font-awesome';
+
+// @import 'vendor/editable/_editable';
+
+// @import 'vendor/_icheck';
+// @import 'vendor/_datepicker'; // obligatoirement après bootstrap
+// @import 'vendor/_morris';
+// @import 'vendor/_select2';
+
+// // application des variables du theme aux styles
+// @import "_skin-ba.less";
+
+// // mixins persos (issues de Knacss et autres)
+// // doit être avant les layouts et après les vendors
+// @import '_mixins';
+
+
+// // layout / modules / states
+
+
+// @import 'layouts/_main';
+// @import 'layouts/_login';
+// @import 'layouts/_edit-form';
+// @import 'layouts/_entity-list';
+// @import 'layouts/_show';
+
+
+// @import 'modules/_btn';
+// @import 'modules/_box';
+// @import 'modules/_table';
+// @import 'modules/_progress-bar';
+// @import 'modules/_input';
+// @import 'modules/_alert';
+// @import 'modules/_form-tab';
+// @import 'modules/_sexy-label';
+// @import 'modules/_checkbox-switch';
+// @import 'modules/_count-box';
+// @import 'modules/_box-arrow';
+// @import 'modules/_collection-add';
+
+
+// @import '_states';
+
+
